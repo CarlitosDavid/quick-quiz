@@ -5,7 +5,6 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
@@ -16,7 +15,7 @@
 
 <body>
     <header class="p-2" style="background-color:#808000" >
-        <strong><a href="assets/topscore.html">Top Scores: </a></strong>
+        <strong><a href="assets/topscore.html">Scoreboard </a></strong>
         <span id="timer" class="float-right mr-2">Time: 0</span>
     </header>
 
@@ -25,9 +24,10 @@
         <div class="row justify-content-center mt-5 pt-3 pb-3">
             <div class="col-10 col-lg-8 text-center">
                 <h1>QuickQuiz</h1><br>
-                <h5><p>Arcade Race! you have 120 Seconds! <br></h5>
-                    <b><i>NOTE:</i> <br>
-                    </b>When you answer incorrectly you'll lose 20 seconds!</p> <br>
+                <h5><p>7 questions<br>
+                 You only have 100 seconds</h5>
+                    <b><i>NOTICE!</i> <br>
+                    </b>When you answer incorrectly you'll lose <i>10 seconds!</i></p> <br>
                 <button type="button" id="startBtn" class="btn btn-info btn-lg">START QUIZ</button>
             </div>
         </div>
@@ -56,9 +56,9 @@
                 <h2>Finished!</h2>
                 <p id="user-score"> </p>
                 <form class="form-group">
-                    <label for="new-score">Enter your name: </label>
+                    <label for="new-score">Enter Name: </label>
                     <input type="text" id="userName">
-                    <button type="button" class="btn btn-info btn-sm submitBtn">Top Score submitted!</button>
+                    <button type="button" class="btn btn-info btn-sm submitBtn">Submit Score</button>
                 </form>
             </div>
         </div>
