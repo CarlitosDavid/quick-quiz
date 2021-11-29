@@ -20,7 +20,8 @@
         ~ a document to restart application, show high scores and clear results
         ~ main doc.js 
 
-    URL:https://carlitosdavid.github.io/quick-quiz/
+    URL:
+    https://carlitosdavid.github.io/quick-quiz/
     
 ## set up 
 
