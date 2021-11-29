@@ -9,7 +9,6 @@
     scores are then 
     
 ## Application. 
-    
     created a html base for my quiz with a header that will lead to a top score 
     a top score html for resart function, quiz results, and top scores. 
     css stylesheet for both html doc.
