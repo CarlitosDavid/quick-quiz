@@ -20,20 +20,20 @@
         ~ a document to restart application, show high scores and clear results
         ~ main doc.js 
 
-    URL: https://carlitosdavid.github.io/quick-quiz/
+     URL: https://carlitosdavid.github.io/quick-quiz/
     
 ## set up 
 
-    Repository URL: https://github.com/CarlitosDavid/quick-quiz
+        Repository URL: https://github.com/CarlitosDavid/quick-quiz
     
-    Home page for quick quiz start quiz button to begin
+     Home page for quick quiz start quiz button to begin
         https://github.com/CarlitosDavid/quick-quiz/issues/3
     
-    question have four choices timer begins when you select start. you lose time for incorrect answers. 
+     question have four choices timer begins when you select start. you lose time for incorrect answers. 
         https://github.com/CarlitosDavid/quick-quiz/issues/1
     
-    once you finish. quiz shows your final time/score and tallys it into the scoreboard upon name entry. 
+     once you finish. quiz shows your final time/score and tallys it into the scoreboard upon name entry. 
         https://github.com/CarlitosDavid/quick-quiz/issues/4
     
-    Top Score show on second html page. 
+     Top Score show on second html page. 
         https://github.com/CarlitosDavid/quick-quiz/issues/2
