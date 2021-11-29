@@ -10,7 +10,11 @@
     
 ## Application. 
     
-    created a html base for my quiz with a header that will lead to a top score html showing quiz taken with each lunch. at
-    Had to create mutilple .js files 
+    created a html base for my quiz with a header that will lead to a top score 
+    a top score html for resart function, quiz results, and top scores. 
+    css stylesheet for both html doc.
+    bootstrapCDN
+    created mutilple .js documents 
         ~ one to contain all questions and answers 
-        ~ one that contains all other operations 
+        ~ a document to restart application, show high scores and clear results
+        ~ main doc.js 
