@@ -26,6 +26,12 @@ i {
     color: red;
 }
 
+h3 {
+    color: olive;
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+}
+
 
 .p-2 {
     font-size: 22px; 

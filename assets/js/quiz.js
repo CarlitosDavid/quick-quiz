@@ -1,6 +1,6 @@
 var startBtn = document.getElementById("startBtn");
 var submitBtn = document.querySelector("button.submitBtn")
-var secondsLeft = (questions.length * 30 / 2);
+var secondsLeft = (questions.length * 30 / 2 - 5);
 var timerElement = document.getElementById("timer");
 var submitScoreElement = document.querySelector("#submit-score");
 var userScoreElement = document.getElementById("user-score");

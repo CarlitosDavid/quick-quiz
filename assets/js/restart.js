@@ -23,4 +23,4 @@ clearBtn.addEventListener("click", function () {
 });
 restartBtn.addEventListener("click", function () {
     history.back();
-});
+});s
