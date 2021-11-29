@@ -8,7 +8,9 @@
     when all answer are answered or timer reaches 0 the quiz will then be over. 
     scores are then 
     
-    ## Application. 
+## Application. 
     
     created a html base for my quiz with a header that will lead to a top score html showing quiz taken with each lunch. at
-    
+    Had to create mutilple .js files 
+        ~ one to contain all questions and answers 
+        ~ one that contains all other operations 
