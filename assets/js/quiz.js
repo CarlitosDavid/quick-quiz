@@ -1,5 +1,6 @@
 var startBtn = document.getElementById("startBtn");
 var submitBtn = document.querySelector("button.submitBtn")
+// question length determines on the amount of questions
 var secondsLeft = (questions.length * 30 / 2 - 5);
 var timerElement = document.getElementById("timer");
 var submitScoreElement = document.querySelector("#submit-score");
@@ -91,9 +92,10 @@ function hideFeedback(){
 
 function showFeedback(){
     var pElement = document.getElementsByClassName("feedback")[0]
-    pElement.removeAttribute('style');
+    pElement.removeAttribute('styleif ');
 }
-
+ 
+// when user select an answer there are two outcomes results
 answerChoices.addEventListener("click", function (event) {
     var pElement = document.getElementsByClassName("feedback")[0]
     
@@ -101,12 +103,13 @@ answerChoices.addEventListener("click", function (event) {
     if (answer === event.target.textContent) {   
         pElement.innerHTML = "YES!";
         setTimeout(hideFeedback,1225);
-        showFeedback();   
-        
-    } else {
+        showFeedback();  
+    } 
+    
+    else {
         pElement.innerHTML = "WRONG.";
         setTimeout(hideFeedback,1225);
-        secondsLeft = secondsLeft - 10;
+        secondsLeft = secondsLeft - 7;
         showFeedback();
     }    
     makeQuestions();

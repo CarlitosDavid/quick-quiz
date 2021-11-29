@@ -16,7 +16,7 @@ for (var s = 0; s < highScores.length; s++) {
 }
 
 
-
+// both buttoms will send you back to home page with history.back()
 clearBtn.addEventListener("click", function () {
     localStorage.clear();
     history.back()
