@@ -1,6 +1,6 @@
 var startBtn = document.getElementById("startBtn");
 var submitBtn = document.querySelector("button.submitBtn")
-var secondsLeft = (questions.length * 20 + 1);
+var secondsLeft = (questions.length * 30 / 2);
 var timerElement = document.getElementById("timer");
 var submitScoreElement = document.querySelector("#submit-score");
 var userScoreElement = document.getElementById("user-score");
@@ -54,35 +54,33 @@ function makeQuestions() {
     }
 }
 
-// display option to enter name to scoreboard
+
 function displayScore() {
     document.getElementById("quiz").classList.add('d-none');
     document.getElementById("submit-score").classList.remove('d-none');
     userScoreElement.textContent = "FINAL SCORE: " + secondsLeft + ".";
 }
 
-// Event Listeners for Main Buttons
+
 startBtn.addEventListener("click", startTimer);
 submitBtn.addEventListener("click", function (event) {
     event.stopPropagation();
     addScore();
     
-    window.location.href = './highscores.html'
+    window.location.href = 'assets/topscore.html'
 });
 
 function addScore () {
     userNameInput = document.getElementById("userName").value
     
     
-var newScore = {
+    var newScore = {
         name: userNameInput,
         score: secondsLeft
     };
     
     var highScores = JSON.parse(localStorage.getItem("highScores") || "[]");
-    // push object into score array
     highScores.push(newScore)
-    // turn objects into an array of strings + put it into local storage
     localStorage.setItem("highScores", JSON.stringify(highScores));
 }
 
@@ -108,9 +106,8 @@ answerChoices.addEventListener("click", function (event) {
     } else {
         pElement.innerHTML = "WRONG.";
         setTimeout(hideFeedback,1225);
-        secondsLeft = secondsLeft - 20;
+        secondsLeft = secondsLeft - 10;
         showFeedback();
     }    
     makeQuestions();
 });
-

@@ -4,15 +4,26 @@ html, body {
 }
 
 h1 {
-    color: Black;
+    color:black;
     text-decoration: underline overline;
     font-size: 45px;
     font-weight: bolder;
     font-family: arial, helvetica, sans-serif;
 }
 
-h2, h5, a, span {
-    color: white;
+h2, a, span {
+    color: whitesmoke;
+    font-size: xx-large;
+}
+
+h5 {
+    color: olive;
+    font: weight 800px;
+    
+}
+
+i {
+    color: red;
 }
 
 
