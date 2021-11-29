@@ -14,6 +14,7 @@
     a top score html for resart function, quiz results, and top scores. 
     css stylesheet for both html doc.
     bootstrapCDN
+    jquery CDN
     created mutilple .js documents 
         ~ one to contain all questions and answers 
         ~ a document to restart application, show high scores and clear results
